@@ -1,6 +1,5 @@
 const { Player } = require('discord-player');
 const { Client, Intents } = require('discord.js');
-const token = process.env.token;
 
 global.client = new Client({
     intents: [
@@ -19,4 +18,4 @@ global.player = new Player(client, client.config.opt.discordPlayer);
 require('./src/loader');
 require('./src/events');
 
-client.login(token).catch(err => console.log(err));
+client.login('OTE5NjY5OTAwNTg1MzQwOTYw.YbZLVg.-etPFasgSDonvBRMmzFX6qkswwI').catch(err => console.log(err));
