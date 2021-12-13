@@ -1,7 +1,6 @@
 module.exports = {
     app: {
         px: '.',
-        token: 'OTE5NjY5OTAwNTg1MzQwOTYw.YbZLVg.-etPFasgSDonvBRMmzFX6qkswwI',
         playing: 'Counter-Strike: Global Offensive'
     },
 
